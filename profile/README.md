@@ -5,7 +5,7 @@
 Declaw runs untrusted, AI-generated code in isolated [Firecracker](https://firecracker-microvm.github.io/) microVMs — hardware-level isolation with sub-second starts — and layers runtime security controls on top:
 
 - 🔒 **MicroVM isolation** — every sandbox is a dedicated microVM, not a shared-kernel container
-- 🌐 **Network policy enforcement** — default-deny egress with per-sandbox domain allowlists
+- 🌐 **Network policy enforcement** — per-sandbox egress filtering and domain allowlists
 - 🛡️ **Built-in guardrails** — PII scanning, prompt injection defense, and toxicity detection
 - 📝 **Audit logging** — full visibility into what your agents do
 - ☁️ **Managed cloud or self-hosted** — run it as a service, or deploy in your own infrastructure
